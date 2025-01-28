@@ -1,4 +1,3 @@
-````markdown
 # HarmoniQ
 
 HarmoniQ is a Spotify-integrated web application that allows users to explore the mood of their favorite albums, create mood-based playlists, and upload them directly to their Spotify account. With HarmoniQ, music lovers can seamlessly connect their emotions to their music library and discover new ways to enjoy their favorite tunes.
@@ -53,10 +52,10 @@ Unlock premium features with a subscription, powered by Stripe. Subscribers can:
 ### Installation
 
 1. Clone the HarmoniQ repository:
+
    ```bash
    git clone https://github.com/your-username/harmoniq.git
    ```
-````
 
 2. Navigate to the project directory:
    ```bash
@@ -65,6 +64,7 @@ Unlock premium features with a subscription, powered by Stripe. Subscribers can:
 3. Install the required dependencies:
    ```bash
    npm install
+
    ```
 4. Set up the Spotify Developer API credentials:
    - Create a Spotify Developer account at [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
@@ -110,10 +110,6 @@ Unlock premium features with a subscription, powered by Stripe. Subscribers can:
 
 ---
 
----
-
 Enjoy discovering and creating music with HarmoniQ! 🎶
 
-```
-
-```
+---
