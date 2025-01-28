@@ -54,7 +54,7 @@ Unlock premium features with a subscription, powered by Stripe. Subscribers can:
 1. Clone the HarmoniQ repository:
 
    ```bash
-   git clone https://github.com/your-username/harmoniq.git
+   git clone https://github.com/andrewpre/harmoniq.git
    ```
 
 2. Navigate to the project directory:
@@ -62,10 +62,12 @@ Unlock premium features with a subscription, powered by Stripe. Subscribers can:
    cd harmoniq
    ```
 3. Install the required dependencies:
+
    ```bash
    npm install
 
    ```
+
 4. Set up the Spotify Developer API credentials:
    - Create a Spotify Developer account at [Spotify Developer Dashboard](https://developer.spotify.com/dashboard/).
    - Create a new application and note down the Client ID and Client Secret.
