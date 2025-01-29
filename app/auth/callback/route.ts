@@ -5,6 +5,7 @@ import { createStripeCustomer } from '@/utils/stripe/api';
 import { db } from '@/utils/db/db';
 import { usersTable } from '@/utils/db/schema';
 import { eq } from 'drizzle-orm';
+import { randomUUID } from 'crypto';
 
 export async function GET(request: Request) {
   const { searchParams, origin } = new URL(request.url);
@@ -33,6 +34,7 @@ export async function GET(request: Request) {
         );
         // Create record in DB
         await db.insert(usersTable).values({
+          id: randomUUID(),
           name: user!.user_metadata.full_name,
           email: user!.email!,
           stripe_id: stripeID,
